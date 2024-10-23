@@ -16,6 +16,7 @@
     --second-gb-color: #000000;
     --text-color: #fff;
     --main-color: #771A40;
+    --cor: #fff;
 }
 
 html {
@@ -24,8 +25,10 @@ html {
 }
 
 body {
-    background: var(--bg-color);
+    background: linear-gradient(45deg,#d43e7c,#bb2f69,#d6c0c9,#8d1a4a);
+    /* background-color: 300% 300%; */
     color: var(--text-color);
+    animation: color 12s ease-in-out infinite;
 }
 
 section {
@@ -155,10 +158,10 @@ span {
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
-    background-color: var(--main-color);
+    background-color: var(--cor);
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--main-color);
-    font-size: 1.6rem;
+    box-shadow: 0 0 1rem var(--bg-color);
+    font-size: 2rem;
     color: var(--second-gb-color);
     letter-spacing: .1rem;
     font-weight: 600;

@@ -52,7 +52,7 @@ ScrollReveal().reveal('.home-content p, .sobre-content', {origin: 'right'});
 
 //EFEITO DE DIGITANDO
 const typed = new Typed('.multiple-text', {
-    strings: ['Psicóloga.', 'Terapeuta comportamental e Psicanalista.'],
+    strings: ['Psicóloga palestrante treinadora de mulheres.'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
